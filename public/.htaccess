@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+	Options -MultiViews
+	RewriteEngine On
+
+    # Make manifest Norwegian for Norwegians
+    RewriteCond %{HTTP:Accept-Language} (^nb|^no) [NC]
+    RewriteRule manifest.json manifest_no.json
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^ index.html [QSA,L]
+</IfModule>

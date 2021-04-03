@@ -1,7 +1,7 @@
 {
-    "short_name": "Work Math",
-    "name": "Work Math",
-    "lang": "en",
+    "short_name": "Arbeidsmatte",
+    "name": "Arbeidsmattematikk",
+    "lang": "nb",
     "icons": [
         {
             "src": "icons/android-icon-36x36.png",
@@ -28,7 +28,7 @@
             "density": "2.0"
         },
         {
-            "src": "icons/android-icon-144x144.png",
+            "src": "icons\/android-icon-144x144.png",
             "sizes": "144x144",
             "type": "image/png",
             "density": "3.0"
@@ -86,26 +86,26 @@
     ],
     "screenshots": [
         {
-            "src": "images/screenshot_1.jpg",
+            "src": "images/screenshot_1_no.jpg",
             "type": "image/jpg",
             "sizes": "537x375"
         },
         {
-            "src": "images/screenshot_2.jpg",
+            "src": "images/screenshot2_no.jpg",
             "type": "image/jpg",
             "sizes": "537x580"
         },
         {
-            "src": "images/screenshot_3.jpg",
+            "src": "images/screenshot3_no.jpg",
             "type": "image/jpg",
             "sizes": "537x1185"
         }
     ],
     "shortcuts": [
         {
-            "name": "Clips",
+            "name": "Fester",
             "url": "clips",
-            "description": "Calculate Clips",
+            "description": "Kalkuler Fester",
             "icons": [
                 {
                     "src": "icons/paperclip.svg",
@@ -114,9 +114,9 @@
             ]
         },
         {
-            "name": "Fixtures",
+            "name": "Lamper",
             "url": "fixtures",
-            "description": "Calculate Fixtures",
+            "description": "Kalkuler Lamper",
             "icons": [
                 {
                     "src": "icons/lightbulb.svg",
@@ -126,7 +126,7 @@
         }
     ],
     "start_url": "/math/",
-    "categories": ["math", "work", "electrician"],
+    "categories": ["matte", "arbeid", "elektriker"],
     "prefer_related_applications": false,
     "orientation": "portrait-primary",
     "display": "standalone",
